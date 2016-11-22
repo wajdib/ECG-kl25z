@@ -1,4 +1,6 @@
-
+/*
+ *  Author: Wajdi Bazuhair
+ */
 
 #include "mbed.h"
 //#include "MMA8451Q.h"
