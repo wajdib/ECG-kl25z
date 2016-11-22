@@ -7,7 +7,7 @@ KL25z microcontroller is programmed using C++.  The software consists of display
 During initialization, all the necessary pins are configured accordingly. SPI is initialized and the 4 analog pins for the touch resistors are initialized.
 Next the display library is started and configured to use the MOSI, MISO and SRCLK pins necessary for the SPI protocol. 
 
-
+![alt text](https://github.com/wajdib/ECG-kl25z/blob/master/2.jpg "")
 
 ## Device Pinout:
 The touch display is connected through SPI to the microcontroller. SPI is used to send display commands to the ILI9341 driver that handles the drawings. 
@@ -32,4 +32,6 @@ An interrupt occurs every 8ms reading the analog value from that pin and encodin
 Pins used for the ECG connection:
 *	RAW ECG analog in PTE20
 *	Digital in and out PTD4
+
+![alt text](https://github.com/wajdib/ECG-kl25z/blob/master/3.png "")
 
